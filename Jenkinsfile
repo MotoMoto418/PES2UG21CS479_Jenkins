@@ -14,7 +14,7 @@ pipeline {
         stage('Test') {
             steps {
                 // Print the output of the compiled .cpp file
-                sh './obj'
+                sh './ob'
             }
         }
 
